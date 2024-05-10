@@ -1,8 +1,6 @@
-
-using Habit360.Repositories;
 using Habit360.DbContexts;
-using Habit360.Services;
 using Microsoft.EntityFrameworkCore;
+using Habit360.Configuration;
 
 namespace Habit360
 {
@@ -22,13 +20,12 @@ namespace Habit360
             builder.Services.AddDbContext<Habit360Context>(options =>
                 options.UseSqlite("Data Source=localdatabase.db"));
 
-            builder.Services.AddScoped<IHabitRepository, HabitRepository>();
-            builder.Services.AddScoped<IHabitService, HabitService>();
+            builder.Services.ResolveDependencies();
 
-            
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Configure the HTTP request pipeline. 
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
