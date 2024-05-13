@@ -1,10 +1,10 @@
-﻿using Habit360.DbContexts;
-using Habit360.Interfaces;
-using Habit360.Notifications;
-using Habit360.Repositories;
-using Habit360.Services;
+﻿using Habit360.Infra.DbContexts;
+using Habit360.Infra.Repositories;
+using Habit360.Domain.Interfaces;
+using Habit360.Domain.Notifications;
+using Habit360.Domain.Services;
 
-namespace Habit360.Configuration
+namespace Habit360.Api.Configuration
 {
     public static class DependencyInjectionConfig
     {

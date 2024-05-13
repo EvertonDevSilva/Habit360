@@ -1,4 +1,4 @@
-﻿namespace Habit360.DTOs
+﻿namespace Habit360.Api.DTOs
 {
     public class HabitDto
     {

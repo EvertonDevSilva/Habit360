@@ -1,8 +1,8 @@
-﻿using Habit360.Notifications;
+﻿using Habit360.Domain.Notifications;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Habit360.Controllers.v1
+namespace Habit360.Api.Controllers.v1
 {
     [ApiController]
     public class MainController(INotificator notificator) : ControllerBase
@@ -44,10 +44,10 @@ namespace Habit360.Controllers.v1
             foreach (var erro in erros)
             {
                 var errorMsg = erro.Exception == null ? erro.ErrorMessage : erro.Exception.Message;
-                NotificarErro(errorMsg);
+                NotifyError(errorMsg);
             }
         }
-        protected void NotificarErro(string mensagem)
+        protected void NotifyError(string mensagem)
         {
             _notificator.Handle(new Notification(mensagem));
         }

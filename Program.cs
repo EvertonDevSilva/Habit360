@@ -1,6 +1,6 @@
-using Habit360.DbContexts;
+using Habit360.Infra.DbContexts;
 using Microsoft.EntityFrameworkCore;
-using Habit360.Configuration;
+using Habit360.Api.Configuration;
 
 namespace Habit360
 {
@@ -18,7 +18,7 @@ namespace Habit360
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<Habit360Context>(options =>
-                options.UseSqlite("Data Source=localdatabase.db"));
+                options.UseSqlite("Data Source=Habit360.db"));
 
             builder.Services.ResolveDependencies();
 

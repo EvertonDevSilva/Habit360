@@ -1,6 +1,0 @@
-@Habit360_HostAddress = http://localhost:5163
-
-GET {{Habit360_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

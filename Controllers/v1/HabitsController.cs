@@ -1,9 +1,10 @@
-﻿using Habit360.DTOs;
-using Habit360.Interfaces;
-using Habit360.Notifications;
+﻿using Habit360.Api.DTOs;
+using Habit360.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Habit360.Domain.Models;
+using Habit360.Domain.Notifications;
 
-namespace Habit360.Controllers.v1
+namespace Habit360.Api.Controllers.v1
 {
     [ApiController]
     [Route("api/v1/[controller]")]
@@ -18,11 +19,16 @@ namespace Habit360.Controllers.v1
         public async Task<IActionResult> Create(HabitDto input)
         {
             if(!ModelState.IsValid) return CustomResponse(ModelState);
-            
-            
-            await _habitService.Create(input);
 
-            return CustomResponse(input);
+            var habit = new Habit(input.Name,
+                                       input.Description,
+                                       input.HabitType,
+                                       input.StartDate,
+                                       input.Frequency);
+
+            await _habitService.Create(habit);
+
+            return CustomResponse(habit);
         }
 
         [HttpGet]
@@ -35,7 +41,13 @@ namespace Habit360.Controllers.v1
         public async Task<IActionResult> Update(int id, HabitDto input)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
-            await _habitService.Update(id, input);
+
+            var habit = await _habitRepository.ReadById(id);
+            if(habit == null) return NotFound(habit);
+
+            habit.UpdateHabit(input.Name, input.Description, input.HabitType, input.StartDate, input.Frequency);
+
+            await _habitService.Update(id, habit);
 
             return CustomResponse(input);
         }
