@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgMSztMWoPGWAu26kFoufJP8fYGsB/zmFI64B5SWdSST76uEMDIEtXlw8hTvmkISFeSf6ZSaYHSPNRnFGiSFgg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Habit360\\Habit360.Domain\\Habit360.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evert\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\evert\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\evert\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\evert\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

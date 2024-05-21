@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Habit360\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4117A-DCFE-444D-B41F-240A01EEFCA6}|Hbit360.Infra\\Hbit360.Infra.csproj|c:\\projects\\habit360\\hbit360.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4117A-DCFE-444D-B41F-240A01EEFCA6}|Hbit360.Infra\\Hbit360.Infra.csproj|solutionrelative:hbit360.infra\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40615062-0B33-466F-A47A-89D1986FC272}|Habit360.Domain\\Habit360.Domain.csproj|c:\\projects\\habit360\\habit360.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40615062-0B33-466F-A47A-89D1986FC272}|Habit360.Domain\\Habit360.Domain.csproj|solutionrelative:habit360.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\VaiVoa\\VaiVoa.Domain\\Models\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D84A2A01-FE13-4892-9A42-6B10DFFB5A95}|Habit360.Api.csproj|c:\\projects\\habit360\\controllers\\v1\\habitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D84A2A01-FE13-4892-9A42-6B10DFFB5A95}|Habit360.Api.csproj|solutionrelative:controllers\\v1\\habitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Projects\\Habit360\\Hbit360.Infra\\Class1.cs",
+              "RelativeDocumentMoniker": "Hbit360.Infra\\Class1.cs",
+              "ToolTip": "C:\\Projects\\Habit360\\Hbit360.Infra\\Class1.cs",
+              "RelativeToolTip": "Hbit360.Infra\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:32:12.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Projects\\Habit360\\Habit360.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Habit360.Domain\\Class1.cs",
+              "ToolTip": "C:\\Projects\\Habit360\\Habit360.Domain\\Class1.cs",
+              "RelativeToolTip": "Habit360.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:26:38.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Projects\\VaiVoa\\VaiVoa.Domain\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "..\\VaiVoa\\VaiVoa.Domain\\Models\\Client.cs",
+              "ToolTip": "C:\\Projects\\VaiVoa\\VaiVoa.Domain\\Models\\Client.cs",
+              "RelativeToolTip": "..\\VaiVoa\\VaiVoa.Domain\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:18:21.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HabitsController.cs",
+              "DocumentMoniker": "C:\\Projects\\Habit360\\Controllers\\v1\\HabitsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\v1\\HabitsController.cs",
+              "ToolTip": "C:\\Projects\\Habit360\\Controllers\\v1\\HabitsController.cs",
+              "RelativeToolTip": "Controllers\\v1\\HabitsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T14:59:35.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Projects\Habit360\Habit360.Domain\bin\Debug\net8.0\Habit360.Domain.deps.json
+C:\Projects\Habit360\Habit360.Domain\bin\Debug\net8.0\Habit360.Domain.dll
+C:\Projects\Habit360\Habit360.Domain\bin\Debug\net8.0\Habit360.Domain.pdb
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.csproj.AssemblyReference.cache
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.AssemblyInfoInputs.cache
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.AssemblyInfo.cs
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.dll
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\refint\Habit360.Domain.dll
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\Habit360.Domain.pdb
+C:\Projects\Habit360\Habit360.Domain\obj\Debug\net8.0\ref\Habit360.Domain.dll
