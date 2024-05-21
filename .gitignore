@@ -1,2 +1,10 @@
-".vs/" 
-".vs/" 
+# Visual Studio
+.vs/
+/bin/
+/obj/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

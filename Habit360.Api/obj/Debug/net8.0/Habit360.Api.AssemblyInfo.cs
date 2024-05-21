@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Habit360.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66e59ab2f7f7408dac28b5c64270f4481bbc6eba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc388247a278be994aa9aba01111955a2bb8b1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Habit360.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Habit360.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
