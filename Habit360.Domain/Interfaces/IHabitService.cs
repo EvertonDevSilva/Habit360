@@ -6,7 +6,7 @@ namespace Habit360.Domain.Interfaces
     public interface IHabitService : IDisposable
     {
         Task Create(Habit input);
-        Task Update(int id, Habit input);
+        Task Update(Habit input);
         void Delete(int id);
     }
 }

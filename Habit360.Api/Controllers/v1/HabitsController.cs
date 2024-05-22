@@ -20,11 +20,7 @@ namespace Habit360.Api.Controllers.v1
         {
             if(!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var habit = new Habit(input.Name,
-                                       input.Description,
-                                       input.HabitType,
-                                       input.StartDate,
-                                       input.Frequency);
+            var habit = new Habit(input.Name, input.Description, input.HabitType, input.StartDate, input.Frequency);
 
             await _habitService.Create(habit);
 
@@ -47,7 +43,7 @@ namespace Habit360.Api.Controllers.v1
 
             habit.UpdateHabit(input.Name, input.Description, input.HabitType, input.StartDate, input.Frequency);
 
-            await _habitService.Update(id, habit);
+            await _habitService.Update(habit);
 
             return CustomResponse(input);
         }

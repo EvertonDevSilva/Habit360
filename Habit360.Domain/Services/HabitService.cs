@@ -5,8 +5,8 @@ using Habit360.Domain.Validations;
 
 namespace Habit360.Domain.Services
 {
-    public class HabitService(IHabitRepository habitRepository,
-                              INotificator notificator) : BaseService(notificator), IHabitService
+    public class HabitService(IHabitRepository habitRepository, INotificator notificator) 
+        : BaseService(notificator), IHabitService
     {
         private readonly IHabitRepository _habitRepository = habitRepository;
 
@@ -28,7 +28,7 @@ namespace Habit360.Domain.Services
             return await _habitRepository.Read();
         }
 
-        public async Task Update(int id, Habit habit)
+        public async Task Update(Habit habit)
         {
             if (!ValidatorExecute(new HabitValidator(), habit)) return;
 

@@ -6,11 +6,7 @@ namespace Habit360.Domain.Models
     {
         public Habit() { }
 
-        public Habit(string name,
-                       string description,
-                       string habitType,
-                       DateTime startDate,
-                       string frequency)
+        public Habit(string name, string description, string habitType, DateTime startDate, string frequency)
         {
             Name = name;
             Description = description;

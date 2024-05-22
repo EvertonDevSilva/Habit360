@@ -11,6 +11,9 @@ namespace Habit360.Api.Configuration
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
             services.AddScoped<Habit360Context>();
+            //Users
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, UserRepository>();
             // Habits
             services.AddScoped<IHabitRepository, HabitRepository>();
             services.AddScoped<IHabitService, HabitService>();
